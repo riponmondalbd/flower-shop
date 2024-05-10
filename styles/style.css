@@ -86,4 +86,37 @@ header {
 
 .flower-container {
     display: flex;
+    align-items: flex-end;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.single-flower-container img {
+    padding-top: 50px;
+    border-radius: 300px 300px 0 0;
+    height: 370px;
+    /* width: 370px; */
+}
+
+.pink-flower {
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 0 55px 0 55px;
+}
+
+.red-flower {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-flower {
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 0 55px 0 55px;
+}
+
+.single-flower-container h3 {
+    text-align: center;
+    margin-top: 32px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+
 }
