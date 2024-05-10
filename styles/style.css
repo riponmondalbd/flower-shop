@@ -72,7 +72,7 @@ header {
     width: 634px;
 }
 
-/* Features style */
+/* Features flower style */
 .featured-flower-container {
     max-width: 1140px;
     margin: 0 auto;
@@ -95,7 +95,6 @@ header {
     padding-top: 50px;
     border-radius: 300px 300px 0 0;
     height: 370px;
-    /* width: 370px; */
 }
 
 .pink-flower {
@@ -119,4 +118,24 @@ header {
     font-size: 24px;
     font-weight: 700;
 
+}
+
+/* delivery styles */
+.support-container {
+    max-width: 1140px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 87px 0;
+    text-align: center;
+}
+
+.delivery-details {
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
