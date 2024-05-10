@@ -208,3 +208,20 @@ header {
 .latest-deal-container {
     margin-bottom: 128px;
 }
+
+/* footer */
+footer {
+    background-color: #111010;
+    padding: 128px 0;
+}
+
+.footer-description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+footer>small p {
+    text-align: center;
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+}
