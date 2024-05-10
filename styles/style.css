@@ -74,7 +74,7 @@ header {
 
 /* Features flower style */
 .featured-flower-container {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -86,6 +86,7 @@ header {
 
 .flower-container {
     display: flex;
+    justify-content: space-between;
     align-items: flex-end;
     gap: 24px;
     margin-top: 48px;
@@ -122,7 +123,7 @@ header {
 
 /* delivery styles */
 .support-container {
-    max-width: 1140px;
+    max-width: 1440px;
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
     margin: 0 auto;
@@ -148,8 +149,8 @@ header {
 .deal-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1140px;
+    justify-content: space-around;
+    max-width: 1440px;
     margin: 0 auto;
     text-align: center;
 }
@@ -164,4 +165,18 @@ header {
 
 .single-deal {
     margin: 100px 0;
+}
+
+/* instagram style */
+.instagram-container {
+    text-align: center;
+    /* border: 2px solid; */
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.instagram-fead {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
 }
