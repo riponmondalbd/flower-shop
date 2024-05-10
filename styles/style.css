@@ -139,3 +139,29 @@ header {
     font-size: 24px;
     font-weight: 600;
 }
+
+/* hot deal style */
+.deal-container-bg {
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.deal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pink-heading {
+    color: #E55473;
+}
+
+.deal-description {
+    width: 594px;
+}
+
+.single-deal {
+    margin: 100px 0;
+}
