@@ -98,6 +98,10 @@ header {
     height: 370px;
 }
 
+.single-flower-container>h3 {
+    text-decoration: underline;
+}
+
 .pink-flower {
     background-color: rgba(167, 33, 98, 0.15);
     padding: 0 55px 0 55px;
